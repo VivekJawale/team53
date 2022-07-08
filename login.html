@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body
+        {
+            height: auto;
+            background-color: dodgerblue;
+            background-image: linear-gradient(to
+             bottom right, rgb(30, 105, 255), rgb(127, 48, 197));
+        }
+         #box
+         {
+            height: 600px;
+            width: 30%;
+            border: 1px solid dodgerblue;
+            margin: 75px 35%;
+            background-color: white;
+            border-radius: 15px;
+         }
+         #box h1
+         {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 80px;
+            font-size: 40px;
+         }
+         #box input
+         {
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            width: 80%;
+            border: 0px;
+            font-size: 20px;
+            color: rgb(255, 252, 252);
+         }
+         #box > hr, #box > input+hr
+         {
+            width: 80%;
+            height: 3px;
+            border: none;
+            background-color: rgb(182, 179, 179);
+         }
+         #box>div
+         {
+            width: 80%;
+            height: 60px;
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 30px;
+         }
+         #box>hr+div
+         {
+            background-image: linear-gradient(to
+             bottom right, rgb(30, 105, 255), rgb(127, 48, 197));
+             margin-top: 50px;
+             padding-bottom: 5px;
+
+         }
+         #box>div>h2
+         {
+            text-align: center;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+         }
+         #box>div+div
+         {
+            height: auto;
+            margin-top: 40px 0px;
+         }
+         #box>div+div>p
+         {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: rgb(126, 123, 123);
+         }
+         span
+         {
+            color: rgb(6, 126, 246);
+         }
+    </style>
+<body>
+    <div id="box">
+          <h1>Login</h1>
+          <input type="text" placeholder="Email"/>
+          <hr>
+          <input type="password" placeholder="Password"/>
+          <hr>
+          <div>
+            <h2>Login</h2>
+          </div>
+          <div>
+            <p>Forget <span>Password?</span></p>
+            <p>Don't have an account? <span>Sign up</span></p>
+          </div>
+    </div>
+    
+</body>
+</html>
